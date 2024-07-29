@@ -17,11 +17,26 @@ export const theme = createTheme({
       fontWeight: 400,
       lineHeight: "28px",
     },
+
+    h3: {
+      fontStyle: "normal",
+      fontSize: "20px",
+      fontWeight: 600,
+      lineHeight: "40px",
+    },
+
     h4: {
       fontStyle: "normal",
       fontSize: "26px",
       fontWeight: 700,
       lineHeight: "40px",
+    },
+
+    subtitle1: {
+      fontStyle: "normal",
+      fontSize: "16px",
+      fontWeight: 800,
+      lineHeight: "24px",
     },
 
     subtitle2: {

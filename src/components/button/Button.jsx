@@ -2,7 +2,7 @@ import React from 'react'
 import { CircularProgress, Button as MuiButton } from '@mui/material'
 
 
-const Button = ({ loading, children, disabled, startIcon, onClick, ...props }) => {
+const Button = ({ loading, children, disabled, startIcon, onClick, sx, ...props }) => {
   return (
     <MuiButton
       fullWidth
@@ -11,7 +11,7 @@ const Button = ({ loading, children, disabled, startIcon, onClick, ...props }) =
       disabled={loading || disabled}
       startIcon={loading ? <CircularProgress size={20} /> : startIcon}
       onClick={onClick}
-      sx={{ textTransform: 'none' }}
+      sx={{ textTransform: 'none', ...sx }}
       {...props}
     >
 
