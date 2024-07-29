@@ -26,3 +26,20 @@ export const employees = [
     address: "Hogwarts School",
   },
 ];
+
+export const tasks = [
+  {
+    id: 1,
+    name: "Task A",
+  },
+
+  {
+    id: 2,
+    name: "Task B",
+  },
+
+  {
+    id: 3,
+    name: "Task C",
+  },
+];
